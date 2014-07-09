@@ -1,5 +1,4 @@
 ##ASNCaldnar
-[[ https://raw.githubusercontent.com/yuuki1224/ASNCalendar/master/ASNCalendar.gif | height = 300px ]]
 ![Alt Text](https://raw.githubusercontent.com/yuuki1224/ASNCalendar/master/ASNCalendar.gif)
 
 ##Usage
