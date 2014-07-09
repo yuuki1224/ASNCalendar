@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ASNCalendar.h"
 
-@interface ASNViewController : UIViewController
+@interface ASNViewController : UIViewController <ASNCalendarDelegate>
 
 @end

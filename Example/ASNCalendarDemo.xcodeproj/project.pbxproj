@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49754FA8196D2E73004B389E /* ASNMonthView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49754FA7196D2E73004B389E /* ASNMonthView.xib */; };
 		49F11F65196C3BE50041B98B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F11F64196C3BE50041B98B /* Foundation.framework */; };
 		49F11F67196C3BE50041B98B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F11F66196C3BE50041B98B /* CoreGraphics.framework */; };
 		49F11F69196C3BE50041B98B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F11F68196C3BE50041B98B /* UIKit.framework */; };
@@ -21,6 +22,9 @@
 		49F11F86196C3BE50041B98B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F11F68196C3BE50041B98B /* UIKit.framework */; };
 		49F11F8E196C3BE50041B98B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49F11F8C196C3BE50041B98B /* InfoPlist.strings */; };
 		49F11F90196C3BE50041B98B /* ASNCalendarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F11F8F196C3BE50041B98B /* ASNCalendarDemoTests.m */; };
+		49F11F9C196C4CB60041B98B /* ASNCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F11F9B196C4CB60041B98B /* ASNCalendar.m */; };
+		49F11F9F196C4CC60041B98B /* ASNMonthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F11F9E196C4CC60041B98B /* ASNMonthView.m */; };
+		49F11FA2196C4CD40041B98B /* ASNDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F11FA1196C4CD40041B98B /* ASNDayView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49754FA7196D2E73004B389E /* ASNMonthView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ASNMonthView.xib; sourceTree = "<group>"; };
 		49F11F61196C3BE50041B98B /* ASNCalendarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASNCalendarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F11F64196C3BE50041B98B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		49F11F66196C3BE50041B98B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +58,12 @@
 		49F11F8B196C3BE50041B98B /* ASNCalendarDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ASNCalendarDemoTests-Info.plist"; sourceTree = "<group>"; };
 		49F11F8D196C3BE50041B98B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		49F11F8F196C3BE50041B98B /* ASNCalendarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASNCalendarDemoTests.m; sourceTree = "<group>"; };
+		49F11F9A196C4CB60041B98B /* ASNCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASNCalendar.h; sourceTree = "<group>"; };
+		49F11F9B196C4CB60041B98B /* ASNCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASNCalendar.m; sourceTree = "<group>"; };
+		49F11F9D196C4CC60041B98B /* ASNMonthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASNMonthView.h; sourceTree = "<group>"; };
+		49F11F9E196C4CC60041B98B /* ASNMonthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASNMonthView.m; sourceTree = "<group>"; };
+		49F11FA0196C4CD40041B98B /* ASNDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASNDayView.h; sourceTree = "<group>"; };
+		49F11FA1196C4CD40041B98B /* ASNDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASNDayView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +123,7 @@
 		49F11F6A196C3BE50041B98B /* ASNCalendarDemo */ = {
 			isa = PBXGroup;
 			children = (
+				49F11F99196C3C0C0041B98B /* ASNCalendar */,
 				49F11F73196C3BE50041B98B /* ASNAppDelegate.h */,
 				49F11F74196C3BE50041B98B /* ASNAppDelegate.m */,
 				49F11F76196C3BE50041B98B /* Main.storyboard */,
@@ -150,6 +162,21 @@
 				49F11F8C196C3BE50041B98B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49F11F99196C3C0C0041B98B /* ASNCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				49F11F9A196C4CB60041B98B /* ASNCalendar.h */,
+				49F11F9B196C4CB60041B98B /* ASNCalendar.m */,
+				49F11F9D196C4CC60041B98B /* ASNMonthView.h */,
+				49F11F9E196C4CC60041B98B /* ASNMonthView.m */,
+				49754FA7196D2E73004B389E /* ASNMonthView.xib */,
+				49F11FA0196C4CD40041B98B /* ASNDayView.h */,
+				49F11FA1196C4CD40041B98B /* ASNDayView.m */,
+			);
+			name = ASNCalendar;
+			path = ../../Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49F11F7D196C3BE50041B98B /* Images.xcassets in Resources */,
+				49754FA8196D2E73004B389E /* ASNMonthView.xib in Resources */,
 				49F11F6F196C3BE50041B98B /* InfoPlist.strings in Resources */,
 				49F11F78196C3BE50041B98B /* Main.storyboard in Resources */,
 			);
@@ -250,6 +278,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49F11F9F196C4CC60041B98B /* ASNMonthView.m in Sources */,
+				49F11F9C196C4CB60041B98B /* ASNCalendar.m in Sources */,
+				49F11FA2196C4CD40041B98B /* ASNDayView.m in Sources */,
 				49F11F7B196C3BE50041B98B /* ASNViewController.m in Sources */,
 				49F11F71196C3BE50041B98B /* main.m in Sources */,
 				49F11F75196C3BE50041B98B /* ASNAppDelegate.m in Sources */,
@@ -457,6 +488,7 @@
 				49F11F95196C3BE50041B98B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49F11F96196C3BE50041B98B /* Build configuration list for PBXNativeTarget "ASNCalendarDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +497,7 @@
 				49F11F98196C3BE50041B98B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

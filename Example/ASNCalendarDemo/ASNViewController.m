@@ -18,12 +18,22 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    ASNCalendar *calendar = [[ASNCalendar alloc] initWithFrame:CGRectMake(0, 80, 320, 303)];
+    calendar.delegate = self;
+    [self.view addSubview:calendar];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - ASNCalendarDelegate
+
+- (void)calendar:(ASNCalendar *)calendar didSelectedDay:(ASNDayView *)tappedDay
+{
+    NSLog(@"%@ Tapped!", tappedDay.date);
 }
 
 @end
