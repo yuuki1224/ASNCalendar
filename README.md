@@ -9,7 +9,7 @@ calendar.delegate = self;
 [self.view addSubview:calendar];
 ```````
 
-##Autor
+##Author
 Yuki Asano, yuuki.1224.softtennis@gmail.com
 
 ##License
