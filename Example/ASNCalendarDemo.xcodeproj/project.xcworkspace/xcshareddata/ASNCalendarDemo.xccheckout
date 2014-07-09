@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>422981FA-2ACB-4CC4-911B-25E87B2C5E0B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ASNCalendarDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>392164A6-7E51-439B-B322-65FA9D43E4EF</key>
+		<string>https://github.com/yuuki1224/ASNCalendar</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Example/ASNCalendarDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>392164A6-7E51-439B-B322-65FA9D43E4EF</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yuuki1224/ASNCalendar</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>392164A6-7E51-439B-B322-65FA9D43E4EF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>392164A6-7E51-439B-B322-65FA9D43E4EF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ASNCalendar</string>
+		</dict>
+	</array>
+</dict>
+</plist>
