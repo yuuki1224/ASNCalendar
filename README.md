@@ -1,5 +1,5 @@
 ##ASNCaldnar
-[[ https://github.com/yuuki1224/ASNCalendar/blob/master/ASNCalendar.gif | height = 300px ]]
+[[ https://raw.githubusercontent.com/yuuki1224/ASNCalendar/master/ASNCalendar.gif | height = 300px ]]
 
 ##Usage
 
